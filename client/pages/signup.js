@@ -58,6 +58,8 @@ function SignUp() {
                         (<form onSubmit={signup}>
                             <div className={styles.inp}> <input type="email" className="focus:outline-none px-3 py-2" placeholder="Email" readOnly required /></div>
                             <div className={styles.inp}> <input type="username" className="focus:outline-none px-3 py-2" placeholder="Username" required /></div>
+                            <div className={styles.inp}> <input type="password" className="focus:outline-none px-3 py-2" placeholder="Password" required /></div>
+                            <div className={styles.inp}> <input type="password" className="focus:outline-none px-3 py-2" placeholder="Confirm Password" required /></div>
                             <div> <button className={styles.button} >SignUp</button></div>
                         </form>)
                 }
