@@ -1,9 +1,10 @@
 import Navbar from "../components/Navbar"
+import Products from "../components/Products"
 
 export default function Home() {
   return (<div>
     <Navbar />
-    Working UI is /signup page
+    <Products />
   </div>
   )
 }
